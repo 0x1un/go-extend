@@ -4,6 +4,7 @@
 package exstrings
 
 import (
+	"bytes"
 	"unicode/utf8"
 
 	"github.com/thinkeridea/go-extend/exbytes"
@@ -100,4 +101,23 @@ func Copy(src string) string {
 // 如果提供了值为 0 的 length，返回的子字符串将从 start 位置开始直到字符串结尾。
 func SubString(s string, start, length int) string {
 	return exutf8.RuneSubString(s, start, length)
+}
+
+// RemoveDuplicateString 对一个字符串中连续重复的字符进行删除
+func RemoveDuplicateString(s string) string {
+	if len(s) == 0 {
+		return ""
+	}
+	if len(s) < 2 {
+		return s
+	}
+	var buf bytes.Buffer
+	var last rune
+	for i, r := range s {
+		if r != last || i == 0 {
+			buf.WriteRune(r)
+			last = r
+		}
+	}
+	return buf.String()
 }
