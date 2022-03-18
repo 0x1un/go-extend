@@ -7,8 +7,8 @@ import (
 	"bytes"
 	"unicode/utf8"
 
-	"github.com/thinkeridea/go-extend/exbytes"
-	"github.com/thinkeridea/go-extend/exunicode/exutf8"
+	"github.com/0x1un/go-extend/exbytes"
+	"github.com/0x1un/go-extend/exunicode/exutf8"
 )
 
 // Reverse 反转字符串，通过 https://golang.org/doc/code.html#Library 收集

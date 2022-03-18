@@ -7,7 +7,7 @@ import (
 	"testing"
 	"unicode/utf8"
 
-	"github.com/thinkeridea/go-extend/exunicode/exutf8"
+	"github.com/0x1un/go-extend/exunicode/exutf8"
 )
 
 var benchmarkSubString = "Go语言是Google开发的一种静态强类型、编译型、并发型，并具有垃圾回收功能的编程语言。为了方便搜索和识别，有时会将其称为Golang。"

@@ -3,7 +3,7 @@ package benchmark
 import (
 	"testing"
 
-	"github.com/thinkeridea/go-extend/exmath"
+	"github.com/0x1un/go-extend/exmath"
 )
 
 func BenchmarkRound(b *testing.B) {

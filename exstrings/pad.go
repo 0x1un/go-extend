@@ -3,7 +3,7 @@
 
 package exstrings
 
-import "github.com/thinkeridea/go-extend/exbytes"
+import "github.com/0x1un/go-extend/exbytes"
 
 const (
 	// PadLeft 在左侧填充字符串为指定长度。

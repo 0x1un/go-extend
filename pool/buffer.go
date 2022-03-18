@@ -8,7 +8,7 @@ import (
 	"sync"
 	"unsafe"
 
-	"github.com/thinkeridea/go-extend/exsync"
+	"github.com/0x1un/go-extend/exsync"
 )
 
 // BufferPool bytes.Buffer 的 sync.Pool 接口

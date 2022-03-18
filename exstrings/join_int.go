@@ -6,7 +6,7 @@ package exstrings
 import (
 	"strconv"
 
-	"github.com/thinkeridea/go-extend/pool"
+	"github.com/0x1un/go-extend/pool"
 )
 
 var buffPool = pool.GetBuff64()

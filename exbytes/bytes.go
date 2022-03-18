@@ -6,7 +6,7 @@ package exbytes
 import (
 	"bytes"
 
-	"github.com/thinkeridea/go-extend/exunicode/exutf8"
+	"github.com/0x1un/go-extend/exunicode/exutf8"
 )
 
 /*

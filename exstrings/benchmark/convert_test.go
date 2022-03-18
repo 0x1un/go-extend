@@ -6,7 +6,7 @@ package benchmark
 import (
 	"testing"
 
-	"github.com/thinkeridea/go-extend/exstrings"
+	"github.com/0x1un/go-extend/exstrings"
 )
 
 func BenchmarkStandardLibraryStringToBytes(b *testing.B) {

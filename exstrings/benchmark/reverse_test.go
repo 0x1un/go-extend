@@ -7,8 +7,8 @@ import (
 	"testing"
 	"unicode/utf8"
 
-	"github.com/thinkeridea/go-extend/exbytes"
-	"github.com/thinkeridea/go-extend/exstrings"
+	"github.com/0x1un/go-extend/exbytes"
+	"github.com/0x1un/go-extend/exstrings"
 )
 
 func ReverseRunes(s string) string {

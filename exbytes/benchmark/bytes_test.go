@@ -9,7 +9,7 @@ import (
 	"testing"
 	"unicode/utf8"
 
-	"github.com/thinkeridea/go-extend/exbytes"
+	"github.com/0x1un/go-extend/exbytes"
 )
 
 var replaces string

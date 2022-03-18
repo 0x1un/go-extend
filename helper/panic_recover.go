@@ -10,7 +10,7 @@ import (
 	"os"
 	"runtime"
 
-	"github.com/thinkeridea/go-extend/exbytes"
+	"github.com/0x1un/go-extend/exbytes"
 )
 
 const k = 1 << 10

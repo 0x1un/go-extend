@@ -7,7 +7,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/thinkeridea/go-extend/exstrings"
+	"github.com/0x1un/go-extend/exstrings"
 )
 
 func BenchmarkReplace(b *testing.B) {

@@ -8,7 +8,7 @@ import (
 	"testing"
 	"unsafe"
 
-	"github.com/thinkeridea/go-extend/exsync"
+	"github.com/0x1un/go-extend/exsync"
 )
 
 type one int
